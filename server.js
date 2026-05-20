@@ -39,8 +39,8 @@ app.post('/api/dados', (req,res) =>{
 });
 
 //deifinindo a porta
-const port = process.env.use || 3000;
-app.listen(port , () =>{
-    console.log(`Servidor rodando na porta ${port}`);
+const PORT = process.env.use || 3000;
+app.listen(PORT , () =>{
+    console.log(`Servidor rodando na porta ${PORT}`);
     console.log("servidor com metodo post e get");
 })
