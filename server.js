@@ -1,4 +1,4 @@
-//requisitando as bibçiotecas necessarias
+//requisitando as bibliotecas necessarias
 const express = require('express');
 const cors = require('cors');
 const app = express();
